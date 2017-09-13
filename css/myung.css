@@ -1,0 +1,85 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f2f4f4;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top-nav {
+  height: 20px;
+  max-width: 100%;
+  position: relative;
+  left: 0;
+  width: 100%;
+  background: #ECF0F1;
+  display: inline-block;
+  text-align: left;
+  box-shadow: 0 2px 4px 0 rgba(7,17,27,.06);
+}
+.top-nav span { margin-right: 20px ;}
+.top-nav .top-info {
+  margin-right: 15px;
+  font-size: 11px;
+}
+
+.badge {
+    background-color: rgba(0,0,0,.25);
+}
+.main-content {
+  margin-top: 10px;
+
+}
+
+.fa-cart-plus{
+  font-size: 20px;
+}
+.carousel-inner {
+  border-radius: 6px;
+}
+
+.right-content {
+  background-color: #08b596;
+  max-width: 100%;
+  height: 300px;
+  border-radius: 6px;
+}
+.right-content h1 {
+  display: block;
+}
+
+.process-tab {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 6px;
+  background: #08b596;
+}
+
+.footer {
+    color: #777;
+    padding: 30px 0;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 70px;
+}
+.footer-top p {
+  font-size: 12px;
+}
+.logo-ft {
+  width: 30%;
+}
+.footer-top .about>div h4 {
+    color: #1c2a4a;
+    font-size: 16px;
+}
+.about {
+  font-size: 12px;
+}
+
+hr {
+    border-top: 1px solid #BDC3C7;
+}

@@ -1,0 +1,67 @@
+/* ------------------------------------
+	Media Queries (Desktop First)
+------------------------------------ */
+
+
+@media only screen and (max-width : 1200px) {
+
+	.main-header { line-height: 3.5; height: auto; padding:10px 0; }
+	.submenu-item { padding: 10px; }
+	.submenu-item .icon { width: 55px; margin-right: 5px; }
+	.submenu-item .text { font-size: 15px; }
+	.submenu-item .text small { font-size: 12px; }
+
+}
+
+@media only screen and (max-width : 992px) {
+	
+	.main-header { line-height: 2;}
+	.top-link { display: block; margin: 5px auto 0; }
+	.header-left , .header-right { text-align:center; padding-bottom:10px; }
+
+	.menu-toggle { display: block; padding: 10px 0; color: #fff; font-size: 20px; }
+	.menu-toggle img { float: right; margin-top: 8px; }
+	.menu-toggle:hover { color: #EFB516; }
+	.mainmenu { display: none; }
+	.mainmenu .menu-item { display: block; text-align: left; border: 0 !important; background-image: none !important; }
+	.mainmenu .menu-item a { border-top: 1px solid #2f3b4b; padding: 10px 0; }
+	.submenu { position: static; overflow: hidden; }
+	.submenu-box { float: left; width: 50%; }
+	.submenu-box a { border: 0 !important; padding: 5px 0 !important; margin: 0 5px !important; }
+	.submenu-item .icon { width: 25px; height: auto; margin-right: 20px; }
+	.submenu-item .text small { display: none; }
+
+	.mainmenu .menu-item.has-submenu { position: relative; }
+    .mainmenu .menu-item.has-submenu:after { content: '+'; position: absolute; right: 10px; top: 6px; color: #fff; font-size: 22px; }
+	.submenu-item .text { line-height:2.9;}
+
+}
+
+@media only screen and (max-width : 768px) {
+
+	.main-header { padding:20px 0; }
+	
+	.top-link { font-size: 14px; margin: 10px auto 0; }
+	.phone-link { margin-top: 10px; }
+	.top-cta {  right: 15px; top: 0; margin-top: 10px; }
+	
+
+}
+
+@media only screen and (max-width : 640px) {
+
+	.submenu-box { float: none; width: 100%; }
+	.submenu-box a { margin: 0 5px !important; }
+
+}
+
+@media only screen and (max-width : 480px) {
+
+	.top-cta a { padding: 8px; }
+	.top-cta a img { display: none; }
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}
